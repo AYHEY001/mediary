@@ -63,22 +63,22 @@ export default function Scene1({ progress }: { progress: MotionValue<number> }) 
       onMouseLeave={handleMouseLeave}
     >
       <div className="absolute right-10 top-[20%] text-right z-20 md:max-w-md pointer-events-none">
-        <span className="text-[11px] uppercase text-brand-cyan tracking-[0.2em] mb-1 block">机制 01 / 注意力闸门机制</span>
+        <span className="text-[11px] uppercase text-brand-cyan tracking-[0.2em] mb-1 block">场景 01 / FPS 模拟</span>
         <h2 className="text-[32px] font-[200] text-brand-fg mb-6">
-          时间感知的「认知悖论」
+          时间的「高度折叠」
         </h2>
         <ul className="list-none text-[14px] opacity-70 font-[300] tracking-[0.05em] space-y-4 mb-10">
           <motion.li style={{ opacity: useTransform(progress, [0.2, 0.22], [0, 1]) }}>
-            <span className="text-brand-cyan block mb-1">起搏器-累加器假设</span>
-            极限生存压力诱发高唤醒度 (Arousal)
+            <span className="text-brand-cyan block mb-1">极致反差</span>
+            瞬间暴富瞬间破产
           </motion.li>
           <motion.li style={{ opacity: useTransform(progress, [0.3, 0.32], [0, 1]) }}>
-            <span className="text-brand-cyan block mb-1">奇数范式效应</span>
-            高光瞬间引发微观时间极度膨胀
+            <span className="text-brand-cyan block mb-1">时间悖论</span>
+            微观时间膨胀与宏观压缩
           </motion.li>
           <motion.li style={{ opacity: useTransform(progress, [0.35, 0.38], [0, 1]) }}>
-            <span className="text-brand-cyan block mb-1">宏观时间压缩</span>
-            高认知负荷致使“时间盲视”与时光飞逝
+            <span className="text-brand-cyan block mb-1">重构意义</span>
+            重获现实中缺失的掌控感
           </motion.li>
         </ul>
       </div>
@@ -96,8 +96,8 @@ export default function Scene1({ progress }: { progress: MotionValue<number> }) 
         
         <div className="mb-4 group">
           <div className="flex justify-between text-[11px] text-white/50 mb-1">
-            <span>宏观现实流逝 (全局游玩时间)</span>
-            <span className="opacity-0 group-hover:opacity-100 transition-opacity">~180 分钟无感知流逝</span>
+            <span>局外现实时间</span>
+            <span className="opacity-0 group-hover:opacity-100 transition-opacity">~180 分钟</span>
           </div>
           <div className="h-2 w-full bg-white/10 rounded-full overflow-hidden">
             <motion.div className="h-full bg-brand-fg/30" initial={{ width: "0%" }} whileInView={{ width: "100%" }} transition={{ duration: 1, delay: 0.2 }} />
@@ -106,8 +106,8 @@ export default function Scene1({ progress }: { progress: MotionValue<number> }) 
 
         <div className="group">
           <div className="flex justify-between text-[11px] text-white/50 mb-1">
-            <span className="text-brand-gold">局内心流微观延展体验</span>
-            <span className="text-brand-gold opacity-0 group-hover:opacity-100 transition-opacity">极度漫长的高强度战术对弈</span>
+            <span className="text-brand-gold">局内专注体感时间</span>
+            <span className="text-brand-gold opacity-0 group-hover:opacity-100 transition-opacity">~30 分钟</span>
           </div>
           <div className="h-2 w-full bg-white/10 rounded-full overflow-hidden">
             <motion.div className="h-full bg-brand-gold shadow-[0_0_10px_var(--color-brand-gold)]" initial={{ width: "0%" }} whileInView={{ width: "20%" }} transition={{ duration: 1, delay: 0.5 }} />

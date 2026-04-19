@@ -47,8 +47,8 @@ export default function Scene0({ progress }: { progress: MotionValue<number> }) 
             style={{ opacity: clockOpacity }} 
             className="text-[14px] text-brand-cyan/80 font-[300] tracking-[0.05em] mt-8 text-center"
          >
-           电子游戏：一种高度复杂的「时间性人造物」<br/>
-           <span className="opacity-50 text-[12px] mt-2 block">本体虚构 · 认知扭曲 · 社会异化的柔性补偿</span>
+           游戏研究<br/>
+           <span className="opacity-50 text-[12px] mt-2 block">高度折叠 · 结构化延展 · 柔性融合</span>
          </motion.p>
 
          <motion.div 
