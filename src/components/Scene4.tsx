@@ -43,12 +43,13 @@ export default function Scene4({ progress }: { progress: MotionValue<number> }) 
 
       <div className="z-10 text-center mb-40">
         <h2 className="text-[42px] font-[200] text-brand-fg mb-6 tracking-widest">
-          重构自我
+          夺回「时间的主权」
         </h2>
-        <div className="space-y-4 text-[14px] text-white/70 font-[300] tracking-[0.05em]">
-          <p>数字媒介早已不仅是娱乐工具</p>
-          <p>它为现代人提供对抗现实焦虑的避难所</p>
-          <p>我们在虚拟的世界里寻找失落的确定性，重构时间的意义</p>
+        <div className="space-y-4 text-[14px] text-white/70 font-[300] tracking-[0.05em] mt-8">
+          <p>电子游戏以其极其精密的多维时空架构</p>
+          <p>精准填补了现实异化生活反馈匮乏的断裂带</p>
+          <p>我们在一次次启动虚拟规则的瞬间，完成着数字资本时代下</p>
+          <p className="text-brand-cyan mt-4 font-[400]">一场寻回生命共鸣与自我主权的当代精神实践</p>
         </div>
       </div>
     </motion.div>

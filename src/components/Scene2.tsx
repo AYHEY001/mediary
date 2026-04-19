@@ -63,22 +63,22 @@ export default function Scene2({ progress }: { progress: MotionValue<number> }) 
       onMouseLeave={handleMouseLeave}
     >
       <div className="absolute right-10 top-1/2 -translate-y-1/2 text-right z-20 pointer-events-none">
-        <span className="text-[11px] uppercase text-brand-cyan tracking-[0.2em] mb-1 block">场景 02 / 星露谷物语</span>
+        <span className="text-[11px] uppercase text-brand-cyan tracking-[0.2em] mb-1 block">机制 02 / 媒介本体时间结构</span>
         <h2 className="text-[32px] font-[200] text-brand-fg mb-6">
-          时间的「结构化延展」
+          寻找「反加速」共鸣轴
         </h2>
         <ul className="list-none text-[14px] opacity-70 font-[300] tracking-[0.05em] space-y-4">
           <li>
-            <span className="text-brand-cyan block mb-1">重塑感知</span>
-            物理流速：0.7秒 = 1分钟
+            <span className="text-brand-cyan block mb-1">Jesper Juul双重时间模型</span>
+            客观游玩时间(Play Time)向虚构时间的投射
           </li>
           <li>
-            <span className="text-brand-cyan block mb-1">心理结构</span>
-            阶段性成长，稳步释放节奏
+            <span className="text-brand-cyan block mb-1">协调时间 (Coordination Time)</span>
+            通过联机节律构建跨越物理阻隔的情感同盟
           </li>
           <li>
-            <span className="text-brand-cyan block mb-1">隐性反抗</span>
-            重建现实效率以外的生活掌控感
+            <span className="text-brand-cyan block mb-1">抵抗现代性异化的实践</span>
+            以自然节奏对抗现实的“效率至上”与生存焦虑
           </li>
         </ul>
       </div>

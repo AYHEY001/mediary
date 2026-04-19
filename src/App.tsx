@@ -54,8 +54,8 @@ export default function App() {
         
         {/* Global Header */}
         <div className="absolute top-10 left-10 z-[20] flex flex-col pointer-events-none">
-          <h1 className="text-[12px] uppercase tracking-[0.4em] opacity-50 font-normal mb-2 text-brand-fg">展示洞察</h1>
-          <h2 className="text-[36px] md:text-[42px] font-[200] tracking-[-0.02em] leading-[1.1] text-brand-fg">数字媒介下的时间体验</h2>
+          <h1 className="text-[12px] uppercase tracking-[0.4em] opacity-50 font-normal mb-2 text-brand-fg">跨学科视角：认知心理学与社会加速理论</h1>
+          <h2 className="text-[36px] md:text-[42px] font-[200] tracking-[-0.02em] leading-[1.1] text-brand-fg">数字媒介下的时间体验重塑</h2>
         </div>
 
         <nav className="absolute bottom-10 left-10 flex gap-5 z-[20]">

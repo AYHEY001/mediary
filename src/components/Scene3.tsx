@@ -25,22 +25,22 @@ export default function Scene3({ progress }: { progress: MotionValue<number> }) 
       <motion.div className="absolute inset-0 bg-[#000000] pointer-events-none" style={{ opacity: nightOverlay }} />
 
       <div className="absolute right-10 top-1/2 -translate-y-1/2 text-right z-20 pointer-events-none">
-        <span className="text-[11px] uppercase text-brand-cyan tracking-[0.2em] mb-1 block">场景 03 / 氛围陪伴</span>
+        <span className="text-[11px] uppercase text-brand-cyan tracking-[0.2em] mb-1 block">机制 03 / 赛博时间伦理预演</span>
         <h2 className="text-[32px] font-[200] text-brand-fg mb-6">
-           时间的「柔性融合」
+           边界缝合与「软性体验」
         </h2>
         <ul className="list-none text-[14px] opacity-70 font-[300] tracking-[0.05em] space-y-4">
           <li>
-            <span className="text-brand-cyan block mb-1">体验特征</span>
-            连续无感陪伴，时空边界模糊
+            <span className="text-brand-cyan block mb-1">时空锚点交叠</span>
+            无干预式陪伴消解主客体间的物理孤立感
           </li>
           <li>
-            <span className="text-brand-cyan block mb-1">深层需求</span>
-            剥离高频操作，寻求情绪价值
+            <span className="text-brand-cyan block mb-1">反抗注意力剥夺陷阱</span>
+            摒弃高频阈值刺激，追求长周期连续情绪回潮
           </li>
           <li>
-            <span className="text-brand-cyan block mb-1">生活方式</span>
-            柔性数字时间，安抚高压现实
+            <span className="text-brand-cyan block mb-1">后人类主义情绪补偿</span>
+            在冰冷的社会网络中构建极具温度的绝对归属
           </li>
         </ul>
       </div>
